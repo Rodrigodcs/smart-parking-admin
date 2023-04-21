@@ -19,10 +19,10 @@ export default function AddCredit({showToast}) {
         }}
         axios.post(`${process.env.REACT_APP_API_URL}/admin/user/addCredits`,body,config).then((response)=>{
             console.log(response)
-            showToast("Sucesso")
+            showToast("Créditos adicionados")
         }).catch((e)=>{
-            console.log(e.response.data)
-            showToast("Erro","error")
+            console.log(e.response)
+            showToast(e.response.data,"error")
         })
     }
 

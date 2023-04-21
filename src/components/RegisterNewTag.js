@@ -20,7 +20,7 @@ export default function RegisterNewTag({showToast}) {
             showToast("Sucesso")
         }).catch((e)=>{
             console.log(e.response.data)
-            showToast("Erro","error")
+            showToast(e.response.data,"error")
         })
     }
 

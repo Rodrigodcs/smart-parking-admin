@@ -21,7 +21,7 @@ export default function SearchUserInfo({showToast}) {
             console.log(response.data)
             setLoading(true)
         }).catch((e)=>{
-            showToast("Erro","error")
+            showToast(e.response.data,"error")
             console.log(e.response.data)
         })
     }
