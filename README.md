@@ -5,8 +5,8 @@ Smart Parking is the combination of technologies, such as sensors, cameras, and 
 </p>
 
 ## Demo Video
-<a href="https://www.youtube.com/watch?v=uAcEBNRM-dc" target="_blank" align="center">
-    <img src="https://i.ibb.co/128GhbD/thumb.png" alt="Entrance Device Schematic" width="600px">
+<a href="https://www.youtube.com/watch?v=uAcEBNRM-dc" align="center">
+    <img src="./images/thumb.png" alt="Entrance Device Schematic" width="600px">
 </a>
 
 ## Client Application
@@ -30,33 +30,33 @@ Access the admin application here: [Smart Parking Admin](https://smart-parking-a
 ## General Project Flowchart
 
 <p align="center">
-    <img src="https://i.ibb.co/2PbG1kB/flowchart.png" alt="Entrance Device Schematic" width="600px">
+    <img src="./images/flowchart.png" alt="Entrance Device Schematic" width="600px">
 </p>
 
 
 ## Database Schema
 
 <p align="center">
-    <img src="https://i.ibb.co/10R5K3m/database.png" alt="Entrance Device Schematic" width="600px">
+    <img src="./images/database.png" alt="Entrance Device Schematic" width="600px">
 </p>
 
 
 ## Request Diagram of System Components
 
 <p align="center">
-    <img src="https://i.ibb.co/6sQKj5n/request-diagram.png" alt="Entrance Device Schematic" width="600px">
+    <img src="./images/request-diagram.png" alt="Entrance Device Schematic" width="600px">
 </p>
 
 
 ## Schematic Diagram of the Electronic Circuitry (Entrance Device)
 
 <p align="center">
-    <img src="https://i.ibb.co/xgwzBty/entrance-device.png" alt="Entrance Device Schematic" width="600px">
+    <img src="./images/entrance-device.png" alt="Entrance Device Schematic" width="600px">
 </p>
 
 
 ## Schematic Diagram of the Electronic Circuitry (Parking Spots Device)
 
 <p align="center">
-    <img src="https://i.ibb.co/tpLt48K/parking-spots-device.png" alt="Entrance Device Schematic" width="600px">
+    <img src="./images/parking-spots-device.png" alt="Entrance Device Schematic" width="600px">
 </p>
