@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+[# Smart Parking
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="justify">
+Smart Parking is the combination of technologies, such as sensors, cameras, and an information infrastructure, to optimize the use of parking spaces, guide drivers to available spaces, and improve the parking experience. The concept of Smart Parking is a component of Smart Cities, utilizing technology to enhance the efficiency of public parking, reduce traffic congestion, and improve urban mobility. In this project, a prototype of Smart Parking is presented, capable of demonstrating its functionality on a small scale. The implementation of the prototype involves installing sensors on each parking space to detect the presence of vehicles and send real-time information to a central control system. Users can reserve a parking space in advance using their mobile devices through a developed web application. The collected data is utilized to direct drivers to available spaces and manage vehicle flow efficiently.
+</p>
 
-## Available Scripts
+## Demo Video
+<a href="https://www.youtube.com/watch?v=uAcEBNRM-dc" target="_blank" align="center">
+    <img src="./images/thumb.png" alt="Entrance Device Schematic" width="600px">
+</a>
 
-In the project directory, you can run:
+## Client Application
 
-### `npm start`
+Access the client application here: [Smart Parking Client](https://smart-parking-client.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Admin Application
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Access the admin application here: [Smart Parking Admin](https://smart-parking-admin.vercel.app/)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Repositories
 
-### `npm run build`
+- Main server repository: [smart-parking-server](https://github.com/Rodrigodcs/smart-parking-server)
+- Client Front-end repository: [smart-parking-client](https://github.com/Rodrigodcs/smart-parking-client)
+- Admin Front-end repository: [smart-parking-admin](https://github.com/Rodrigodcs/smart-parking-admin)
+- Entrance device code repository: [smart-parking-entrance-device](https://github.com/Rodrigodcs/smart-parking-entrance-device)
+- Parking spots device code repository: [smart-parking-spots-device](https://github.com/Rodrigodcs/smart-parking-spots-device)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## General Project Flowchart
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+    <img src="./images/flowchart.png" alt="Entrance Device Schematic" width="600px">
+</p>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Database Schema
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="center">
+    <img src="./images/database.png" alt="Entrance Device Schematic" width="600px">
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Request Diagram of System Components
 
-## Learn More
+<p align="center">
+    <img src="./images/request-diagram.png" alt="Entrance Device Schematic" width="600px">
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Schematic Diagram of the Electronic Circuitry (Entrance Device)
 
-### Code Splitting
+<p align="center">
+    <img src="./images/entrance-device.png" alt="Entrance Device Schematic" width="600px">
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Schematic Diagram of the Electronic Circuitry (Parking Spots Device)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+    <img src="./images/parking-spots-device.png" alt="Entrance Device Schematic" width="600px">
+</p>](https://i.ibb.co/xgwzBty/entrance-device.png)https://i.ibb.co/xgwzBty/entrance-device.png
